@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #07413e;
+    background-color: #1D1E23;
     color: #ff0000;
     margin: 0;
     padding: 0;
@@ -47,9 +47,10 @@ body::before {
 
 .link-container button a {
     font-size: 18px;
-    color: #21e7d3;
+    color: #ffffff;
     text-decoration: none;
     filter: drop-shadow(0 0 100px #000000);
+    font-weight: 1000;
 }
 
 .link-container button:hover {
@@ -85,34 +86,35 @@ body::before {
     font-weight: 100%;
 }
 
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
 
-h1{
+h1 span {
+    color: #ff0000;
     position: relative;
-    color: #111;
-
 }
 
-h1::before{
-    content: attr(data-text);
+h1 span::before {
+    content: "";
+    height: 30px;
+    width: 2px;
     position: absolute;
-    color: #ffffff;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 4px solid #ffffff;
-    animation: animate 4s linear infinite;
-    filter: drop-shadow(0 0 20px #0ee2e9);
+    top: 50%;
+    right: -8px;
+    background: #ff0000;
+    transform: translateY(-45%);
+    animation: blink 0.7s infinite;
 }
 
-@keyframes animate {
-    0%,10%, 50%
-    {
-        width: 0px;
-    }
+h1 span.stop-blinking::before {
+    animation: none;
+}
 
-    100%
-    {
-        width: 100px;
-    }
+@keyframes blink {
+    50% { opacity: 0 }
 }
 
 .instagram{
