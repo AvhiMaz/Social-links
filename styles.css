@@ -47,10 +47,8 @@ body::before {
 
 .link-container button a {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
     color: #21e7d3;
     text-decoration: none;
-    color: #000000;
     filter: drop-shadow(0 0 100px #000000);
 }
 
@@ -98,7 +96,6 @@ h1::before{
     content: attr(data-text);
     position: absolute;
     color: #ffffff;
-    /* width: 350px; */
     overflow: hidden;
     white-space: nowrap;
     border-right: 4px solid #ffffff;
@@ -119,7 +116,6 @@ h1::before{
 }
 
 .instagram{
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.A_QLZ7Y9nBwaWnkhCbvGmQHaHZ%26pid%3DApi&f=1&ipt=39bb61f3a6bec1a122cc3fdf3a41a2dddb1b17c268cfb856868625681254ddf0&ipo=images');
     background-size: cover; 
     background-repeat: no-repeat;
     border: none; 
@@ -127,7 +123,6 @@ h1::before{
 }
 
 .twitter{
-    background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP._Nlqv4LX_KauLZI5Oe56lgHaFG%26pid%3DApi&f=1&ipt=4265a03adf289516e186a0ad70a3a918e2b3a56cd684ebedc78af3d3993e0363&ipo=images') ;
     background-size: cover; 
     background-repeat: no-repeat;
     border: none; 
@@ -135,7 +130,6 @@ h1::before{
 }
 
 .linkedin{
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.tGscL6ta6KaomcIjLzkGnQHaHa%26pid%3DApi&f=1&ipt=754c77a38d292757594c5c6b1265af5dff2f58044953ef27fbef2d999edd75bc&ipo=images');
     background-size: cover; 
     background-repeat: no-repeat;
     border: none; 
@@ -143,7 +137,6 @@ h1::before{
 }
 
 .Github{
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.FZGVRUnLT0WHCUnE3lPNrwHaF7%26pid%3DApi&f=1&ipt=ad1d9731217d9368bb3c9158692d23a5f292867ad9ccd21faac9ec3c50cf2d44&ipo=images');
     background-size: cover; 
     background-repeat: no-repeat;
     border: none; 
@@ -153,7 +146,6 @@ h1::before{
 }
 
 .Telegram{
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F03%2FTelegram-Logo-2019-present.jpg&f=1&nofb=1&ipt=e3546e62c145bfa7a0ee6ade8317802225d0bcb02359c7f0183bd29ea3171d5f&ipo=images');
     background-size: cover; 
     background-repeat: no-repeat;
     border: none; 
