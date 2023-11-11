@@ -16,6 +16,11 @@ body::before {
     background-repeat: no-repeat;
 }
 
+.name {
+    color: white;
+}
+
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -23,7 +28,7 @@ body::before {
     text-align: center;
 }
 
-.link-container{
+.link-container {
     display: flex;
     flex-direction: column;
 }
@@ -63,7 +68,7 @@ body::before {
     display: block;
     border-radius: 50%;
     border: 5px solid #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .about-callout {
@@ -114,60 +119,63 @@ h1 span.stop-blinking::before {
 }
 
 @keyframes blink {
-    50% { opacity: 0 }
+    50% {
+        opacity: 0
+    }
 }
 
-.instagram{
-    background-size: cover; 
+.instagram {
+    background-size: cover;
     background-repeat: no-repeat;
-    border: none; 
+    border: none;
     cursor: pointer;
 }
 
-.twitter{
-    background-size: cover; 
+.twitter {
+    background-size: cover;
     background-repeat: no-repeat;
-    border: none; 
+    border: none;
     cursor: pointer;
 }
 
-.linkedin{
-    background-size: cover; 
+.linkedin {
+    background-size: cover;
     background-repeat: no-repeat;
-    border: none; 
+    border: none;
     cursor: pointer;
 }
 
-.Github{
-    background-size: cover; 
+.Github {
+    background-size: cover;
     background-repeat: no-repeat;
-    border: none; 
+    border: none;
     cursor: pointer;
     color: #f1f1f1;
-    
+
 }
 
-.Telegram{
-    background-size: cover; 
+.Telegram {
+    background-size: cover;
     background-repeat: no-repeat;
-    border: none; 
+    border: none;
     cursor: pointer;
 }
 
-.copyright{
+.copyright {
     display: flex;
     justify-content: center;
     align-content: center;
     font-family: 'Mukta', sans-serif;
-    font-size:12px;
+    font-size: 12px;
     color: white;
-  
-  }
-  .copyright1{
+
+}
+
+.copyright1 {
     display: flex;
     justify-content: center;
     align-content: center;
     font-family: 'Mukta', sans-serif;
-    font-size:12px;
+    font-size: 12px;
     color: white;
-  }
+}
